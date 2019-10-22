@@ -24,8 +24,8 @@ var map = L.map('map', {
 
 var getCurrentID = 0;
 // var rootUrl = 'http://10.11.1.56:8080/geoserver/ows';
-//var rootUrl = 'http://10.11.1.40:8082/geoserver/tgn/tide_gauges_wfs/wfs?';
-var rootUrl = 'http://eutgn.marine.ie/geoserver/tgn/tide_gauges_wfs/wfs?';
+var rootUrl = 'http://10.11.1.40:8082/geoserver/tgn/tide_gauges_wfs/wfs?';
+//var rootUrl = 'http://eutgn.marine.ie/geoserver/tgn/tide_gauges_wfs/wfs?';
 var sacgroup = new L.featureGroup()
 var defaultParameters = {
     service: 'WFS',
